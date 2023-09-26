@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROJEK PROFIL GURU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:text="SMK NEGERI 1 SAYUNG"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="388dp"
+        android:layout_height="188dp"
+        app:srcCompat="@drawable/sekolah"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: fatma fatimatuz zahra"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" No: 12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="435dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fatma_data_siswa">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="95dp"
+        android:text="DATA SISWA"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="267dp"
+        android:layout_height="40dp"
+        android:text="SMK NEGERI 1 SAYUNG"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="391dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zahra"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Fatma Fatimatuz Zahra"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="181dp"
+        android:layout_height="25dp"
+        android:text="Nis: 2233288"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="192dp"
+        android:layout_height="29dp"
+        android:text="Kelas: XI PPLG 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="182dp"
+        android:layout_height="23dp"
+        android:text="Alamat: Pangkalan Tugu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTL: Demak 24 juni 2006"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="511dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
